@@ -1,0 +1,529 @@
+@charset "shift_jis";
+/*================================================================================
+
+	common.css for www.pulax.co.jp
+	Last modified:  2012-08-15
+
+================================================================================*/
+
+/* 共通 
+---------------------------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #ffffff;
+	line-height: 120%;
+	text-align: center;
+	font-family: "ヒラギノ角ゴ Pro W3", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+	color: #333333;
+}
+
+img {
+	border: 0;
+	vertical-align: bottom;
+}
+
+em,
+address {
+	font-style: normal;
+}
+
+abbr { 
+	border-bottom : 1px dotted;
+	cursor: help;
+}
+
+hr,
+.hiddens,
+.hiddens p,
+.hiddens abbr {
+	display: none;
+}
+
+.speechGuide,
+.speechGuide p,
+.speechGuide dl,
+.speechGuide dt,
+.speechGuide dd,
+.speechGuide a {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	width: 1px;
+	height: 1px;
+	margin: 0px;
+	padding: 0px;
+}
+
+table,
+th,
+td {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+strong.text {
+	font-weight: normal;
+}
+
+.pageUp {
+	clear: both;
+	padding: 1.5em 0 1em;
+	text-align: right;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+    min-height: 1%;  /* for IE 7*/
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* End hide from IE-mac */
+
+option{
+	margin-right:10px;
+}
+
+a{
+	color: #137733;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+body.popup {
+	background-image: none;
+}
+
+p.shouhyou {
+	font-size:small;
+	text-align:center;
+}
+
+a.over:hover img {
+	margin: -2px;
+	border: 2px solid #137733;
+	opacity: 0.8;
+	-moz-opacity: 0.8; /* for Firefox */
+	filter: alpha(opacity=80); /* for IE6・7 */
+	-ms-filter: “alpha( opacity=80 )”; /* for IE8 */
+}
+
+/* Hタグ宣言 */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+	clear:both;
+}
+
+/* ページトップロールオーバー */
+a.pagetop{
+	display:block;
+	width:685px;
+	height:20px;
+	margin:20px 0px 10px 0px;
+}
+
+/* PDFダウンロードアイコン */
+a.pdflink {
+	background-image: url("../img/pdficon_small.gif"); 
+	background-repeat:no-repeat;
+	display:block;
+	margin:0px 5px 0px 5px;
+}
+
+/* ヘッダーエリア
+---------------------------------------------------------------*/
+#header{
+	clear:both;
+	margin:0 auto;
+	background: url(../img/header/globalnav_bg.gif) repeat-x scroll 0 0;
+	background-position:bottom;
+}
+
+#header_inner{
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* ヘッダーエリア（問い合わせフォーム用） */
+#header_contact{
+	clear:both;
+	margin:0 auto;
+	border-bottom:2px solid #137733;
+}
+
+#header_inner_contact{
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* ヘッダーエリア mainエリア
+---------------------------------------------------------------*/
+#header_main{
+	clear:both;
+	height: 100px;
+	margin:0 0 5px 0;
+	text-align: left;
+}
+
+/* ヘッダーエリア mainエリア（問い合わせフォーム用） */
+#header_main_contact{
+	clear:both;
+	width: 685px;
+	margin:0px 138px 5px 137px;
+	text-align: left;
+}
+
+
+#header_main p.hedtitle{
+	font-size:x-small;
+	line-height:1.2;
+	font-weight:normal;
+	margin:0 0 0 10px;
+}
+
+#header_main #hd_main_left{
+	width: 655px;
+	float: left;
+}
+
+#header_main #hd_main_left #hd_main_left_top{
+	height: 25px;
+	margin: 5px 0 0 0;
+	float: left;
+}
+
+#header_main #hd_main_left #hd_main_left_bottom{
+	height: 70px;
+	margin: 0 auto;
+	float: left;
+}
+
+#header_main #hd_main_right{
+	width: 305px;
+	margin: 5px 0 0 0;
+	float: right;
+}
+
+/* ヘッダーエリア globalnavエリア
+---------------------------------------------------------------*/
+#globalnav{
+	width: 960px;
+	height: 47px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#globalnav ol#menu{
+	margin: 0 auto;
+	list-style: none;
+}
+
+#globalnav ol#menu li{
+	float: left;
+}
+	
+/* パンくずリスト 
+---------------------------------------------------------------*/
+#topicPath {
+	clear: both;
+	width: 100%;
+	padding: 5px 0 10px 0;
+	text-align: left;
+}
+
+#topicPath ul,
+#topicPath li {
+	display: inline; 
+	list-style-type: none;
+}
+ 
+#topicPath dt,
+#topicPath span {
+	position: absolute;
+	left: -9999px;
+	font-size: 0;
+}
+
+#topicPath a {
+	margin-right: 5px;
+	padding-right: 10px;
+	background: url(../img/header/locus.gif) no-repeat center right;
+}
+
+/* コンテンツサイドナビ 
+---------------------------------------------------------------*/
+#sidebar{
+	width:254px;
+	margin:0px 0px 0px 0px;
+	padding:10p 0px 0px 0px;
+	float:right;
+}
+
+#sidebar #localnav{
+	width:252px;
+	float:left;
+	border: 1px solid #CCCCCC;
+	margin:0px 0px 10px 0px;
+}
+
+#localnav #localtopnav-outer {
+	border-bottom:1px solid #DFDFDF;
+	padding:3px;
+	text-align: left;
+}
+
+#localnav #localtopnav-outer #localtopnav-inner {
+}
+
+#localnav #localtopnav-outer #localtopnav-inner p a {
+	height: 27px;
+	background:transparent url(../img/topnav_bg.gif) no-repeat scroll left bottom;
+	display:block;
+	padding:13px 12px 0px 13px;
+	text-decoration:none;
+	color: #333333;
+	font-weight: bold;
+}
+
+#localnav #localnav-outer {
+	border-bottom:1px solid #DFDFDF;
+	padding:5px 11px 0;
+}
+
+#localnav #localnav-outer #localnav-inner {
+	margin-bottom:1em;
+}
+
+#localnav #localnav-outer #localnav-inner .wrapper-localnav {
+	background:transparent url(../img/line_horizon_gray.gif) no-repeat scroll left bottom;
+	margin-bottom:5px;
+	padding-bottom:6px;
+}
+
+#localnav #localnav-outer #localnav-inner .wrapper-localnav-inner {
+	background:transparent url(../img/line_horizon_dot.gif) no-repeat scroll left bottom;
+	margin-bottom:5px;
+	padding-bottom:6px;
+}
+
+#localnav #localnav-outer #localnav-inner p a {
+	background:transparent url(../img/localnav_a_bg1.gif) no-repeat scroll right bottom;
+	display:block;
+	padding:5px 12px 5px 13px;
+	text-decoration:none;
+	text-align: left;
+}
+
+#localnav #localnav-outer #localnav-inner p.target a {
+	background:transparent url(../img/localnav_a_bg1_over.gif) no-repeat scroll right bottom;
+	color:#444444;
+}
+
+#localnav #localnav-outer #localnav-inner p a:hover {
+	background:transparent url(../img/localnav_a_bg1_over.gif) no-repeat scroll right bottom;
+	color:#444444;
+}
+
+#localnav #localnav-outer #localnav-inner ul {
+	margin:6px 0 0;
+}
+
+#localnav #localnav-outer #localnav-inner ul li {
+	margin-bottom:3px;
+}
+
+#localnav #localnav-outer #localnav-inner ul li a {
+	background:transparent url(../img/localnav_a_bg2.gif) no-repeat scroll right center;
+	display:block;
+	padding:3px 0 3px 40px;
+	text-decoration:none;
+	text-align: left;
+}
+
+#localnav #localnav-outer #localnav-inner ul li.target a {
+	background:transparent url(../img/localnav_a_bg2_over.gif) no-repeat scroll right center;
+	color:#444444;
+}
+
+#localnav #localnav-outer #localnav-inner ul li a:hover {
+	background:transparent url(../img/localnav_a_bg2_over.gif) no-repeat scroll right center;
+	color:#444444;
+}
+
+#localnav p.topnav{
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#localnav p.topnav_only{
+	border-bottom: none;
+}
+
+#localnav p.topnav a, #localnav p.topnav_only a{
+	display: block;
+	margin: 2px;
+	padding: 13px 8px;
+	text-decoration: none;
+	color: #333333;
+	font-weight: bold;
+	background-color: #cccccc;
+}
+
+#sidebar #banner{
+	width:215px;
+	float:left;
+	margin:0px 0px 20px 0px;
+	padding-top:10px;
+	text-align:center;
+	background-image:url(../img/bn_bg.gif);
+}
+
+#sidebar #banner p{
+	margin:5px 10px 10px 10px;
+}
+
+/* バナーエリア
+---------------------------------------------------------------*/
+#banner{
+	width:254px;
+	float:right;
+	margin:10px 0px 20px 0px;
+	padding:10px 0px 0px 0px;
+	text-align:center;
+	background-image:url(../img/bn_bg.gif);
+}
+
+#banner p.banner{
+	margin-bottom:10px;
+}
+
+/* テーブルデザインタイプ 
+---------------------------------------------------------------*/
+table.design_typeA td {
+	padding:10px;
+}
+
+table.design_typeB tbody th {
+	padding:10px 10px 10px 20px;
+	border-bottom: 1px dotted #999999;
+	text-align: left;
+	white-space: nowrap;
+	vertical-align: top;
+	font-weight:normal;
+}
+
+table.design_typeB td {
+	text-align: left;
+	padding:10px 10px 10px 30px;
+	border-bottom: 1px dotted #999999;
+}
+
+table.design_typeC tbody th {
+	padding:10px 10px 10px 20px;
+	border-bottom: 1px dotted #999999;
+	text-align: left;
+	white-space: nowrap;
+	vertical-align: top;
+	font-weight:normal;
+	width:100px;
+}
+
+table.design_typeC td {
+	text-align: left;
+	padding:10px 10px 10px 30px;
+	border-bottom: 1px dotted #999999;
+}
+
+table.design_typeD tbody th {
+	padding:5px;
+	border-bottom: 1px dotted #999999;
+	text-align: left;
+	white-space: nowrap;
+	vertical-align: top;
+	font-weight:normal;
+}
+
+table.design_typeD td {
+	text-align: left;
+	padding:5px;
+	border-bottom: 1px dotted #999999;
+}
+
+table.design_typeE td {
+	padding:15px;
+}
+
+table.design_typeF td {
+	padding:1px;
+}
+
+table.design_typeG td {
+	padding:10px;
+}
+
+/* フッターエリア
+---------------------------------------------------------------*/
+#footer{
+	clear:both;
+	border-top:2px solid #137733;
+	margin-top:10px;
+	padding:10px 0px 10px 0px;
+	background-color: #137733;
+}
+
+#footer a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#footer a:hover{
+	text-decoration: underline;
+}
+
+#footer-inner{
+	width: 960px;
+	margin:0px auto;
+}
+
+#footer #footer-inner ul {
+	margin:0;
+	padding:10px 10px 0px 10px;
+}
+
+#footer #footer-inner li {
+	border-right:1px solid #FFFFFF;
+	padding: 0 5px;
+	display:inline;
+}
+
+#footer #footer-inner li.ft_nav_right {
+	border: none;
+}
+
+#footer p.copyright {
+	text-aling:center;
+	color: #FFFFFF;
+	padding:15px 0px 5px 0px;
+}

@@ -1,0 +1,551 @@
+@charset "shift_jis";
+/*================================================================================
+
+	business.css for www.pulax.co.jp
+	Last modified:  2012-08-15
+
+================================================================================*/
+
+@import url(../common/css/common.css);
+
+#contents{
+	clear:both;
+	margin:0 auto;
+}
+
+#contents_inner{
+	width:960px;
+	margin:0px auto;
+	padding:10px 0px 0px 0px;
+}
+
+#main{
+	width:685px;
+	float:left;
+	margin:0px 0px 20px 0px;
+}
+
+/* 共通タグ宣言
+---------------------------------------------------------------*/
+p.title{
+	font-weight:bold;
+	font-size:14px;
+	margin:5px 0px 5px 0px;
+	padding:0px 0px 5px 10px;
+	border-bottom: 1px solid #137733;
+	text-align:left;
+}
+
+p.sub_title{
+	font-weight:bold;
+	font-size:14px;
+	margin:5px 0px 0px 0px;
+	padding:5px 0px 0px 10px;
+	text-align:left;
+}
+
+
+p.honbun{
+	padding:5px 0px 5px 10px;
+	line-height:150%;
+	text-align:left;
+}
+
+p.td_text{
+	padding:0px 5px 0px 0px;
+	line-height:150%;
+}
+
+p.title_text{
+	padding:5px 5px 10px 0px;
+	line-height:150%;
+}
+
+th{
+	padding:10px;
+}
+
+td{
+	padding:10px;
+}
+
+/* お問合せのロールオーバー */
+p.contact_area{
+	width:685px;
+	padding:10px 0px 20px 0px;
+	text-align:center;
+	clear:both;
+}
+
+a.contact_img{
+	display:block;
+}
+
+#h1_area{
+	padding:0px 0px 10px 0px;
+}
+
+.titel_area{
+	padding:10px 0px 10px 0px;
+	clear:both;
+}
+
+#contents_inner #main .titel_area {
+}
+
+
+/* 業務内容
+---------------------------------------------------------------*/
+#business p.works_text{
+	padding:10px 10px 15px 10px;
+	line-height:150%;
+	text-align:left;
+}
+
+#business p.works_text2{
+	padding:10px 5px 10px 25px;
+	line-height:150%;
+	text-align:left;
+}
+
+#business p.works_linktext{
+	padding:0px 5px 10px 0px;
+	text-align:right;
+	text-align:right;
+}
+
+#business a.titel_img{
+	display:block;
+}
+
+#business .sol_titel_chotatsu{
+	width:452px;
+	height:30px;
+	margin:0px 10px 0px 0px;
+	float:left;
+	text-align:center;
+}
+
+#business .sol_titel_ecsite{
+	width:222px;
+	height:30px;
+	margin:0px 0px 0px 0px;
+	float:left;
+	text-align:center;
+}
+
+#business .sol_img1{
+	width:219px;
+	height:100px;
+	margin:5px 10px 10px 0px;
+	padding:5px 0px 15px 0px;
+	float:left;
+	border: solid 1px #cccccc;
+	text-align:center;
+}
+
+#business .sol_img2{
+	width:219px;
+	height:100px;
+	margin:5px 10px 10px 0px;
+	padding:5px 0px 15px 0px;
+	float:left;
+	border: solid 1px #cccccc;
+	text-align:center;
+}
+
+#business .sol_img3{
+	width:219px;
+	height:100px;
+	margin:5px 0px 10px 0px;
+	padding:5px 0px 15px 0px;
+	float:left;
+	border: solid 1px #cccccc;
+	text-align:center;
+}
+
+#business p.sol_text{
+	padding:10px 5px 5px 10px;
+	text-align:left;
+	font-size:12px;
+}
+
+/* 組込みソフトウェア開発
+---------------------------------------------------------------*/
+#hardware table.me_core{
+	border-collapse: collapse;
+	border-style:none;
+	margin:0px 0px 10px 10px;
+	float:left;
+}
+
+#hardware table.me_core tr td{
+	border: 1px solid #ffffff;
+	padding:7px 10px 7px 10px;
+	text-align:left;
+	background-color:#F5F5F5;
+}
+
+#hardware table.me_core th{
+	border: 1px solid #ffffff;
+	padding:7px 10px 7px 10px;
+	text-align:center;
+	background-color:#EEE3FF;
+}
+
+#hardware table.me_core2{
+	border-collapse: collapse;
+	border-style:none;
+	margin:0px 0px 10px 10px;
+	float:left;
+}
+
+#hardware table.me_core2 tr td{
+	border: 1px solid #ffffff;
+	padding:7px 10px 7px 10px;
+	text-align:left;
+	background-color:#F5F5F5;
+}
+
+#hardware table.me_core2 th{
+	border: 1px solid #ffffff;
+	padding:7px 10px 7px 10px;
+	text-align:center;
+	background-color:#D8EAFD;
+}
+
+#hardware p.title_img02{
+	background-image:url(../business/img/hardware_02.gif);
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+	width:565px;
+	height:35px;
+	margin:10px 0 5px 0;
+}
+
+/* 自社製品
+---------------------------------------------------------------*/
+#seihin table.shiyo{
+	border-collapse: collapse;
+	border-style:none;
+	margin:0px 0px 10px 10px;
+}
+
+#seihin table.shiyo tr td{
+	border: 1px solid #ffffff;
+	padding:7px 10px 7px 10px;
+	text-align:left;
+	background-color:#F5F5F5;
+}
+
+#seihin table.shiyo th{
+	border: 1px solid #ffffff;
+	padding:7px 10px 7px 15px;
+	text-align:left;
+	background-color:#D8EAFD;
+}
+
+#seihin p.chushaku{
+	font-size:11px;
+	padding:5px 0px 5px 10px;
+	line-height:100%;
+	text-align:left;
+}
+
+#seihin .seihin_img1{
+	width:219px;
+	height:150px;
+	margin:5px 10px 5px 0px;
+	padding:0px 0px 15px 0px;
+	float:left;
+	border: solid 1px #cccccc;
+	text-align:center;
+}
+
+#seihin .seihin_img2{
+	width:219px;
+	height:150px;
+	margin:5px 10px 5px 0px;
+	padding:0px 0px 15px 0px;
+	float:left;
+	border: solid 1px #cccccc;
+	text-align:center;
+}
+
+#seihin .seihin_img3{
+	width:219px;
+	height:150px;
+	margin:5px 0px 5px 0px;
+	padding:0px 0px 15px 0px;
+	float:left;
+	border: solid 1px #cccccc;
+	text-align:center;
+}
+
+#seihin p.seihin_title{
+	font-weight:bold;
+	font-size:12px;
+	margin:0px 0px 5px 0px;
+	padding:5px 0px 2px 10px;
+	border-bottom: 1px solid #cccccc;
+	background-color:#ECECEC;
+	text-align:left;
+	clear:both;
+}
+
+#seihin p.seihin_text{
+	padding:10px 5px 5px 10px;
+	text-align:left;
+	font-size:12px;
+	clear:both;
+}
+
+/* 基板設計
+---------------------------------------------------------------*/
+#design p.jisseki{
+	padding:5px 0px 0px 10px;
+	text-align:left;	
+}
+
+
+/* シミュレーション
+---------------------------------------------------------------*/
+#simulation p.midashi{
+	font-weight:bold;
+	color:#137733;
+	text-align: left;
+}
+
+#simulation p.midashi_text{
+	width:380;
+	padding:5px 5px 10px 5px;
+	line-height:150%;
+	text-align: left;
+}
+
+/* 基板製作
+---------------------------------------------------------------*/
+#board table.works_table td {
+	font-size:11px;
+	border-collapse: collapse;
+	border: 1px solid #999999;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#board table.korboard_table td {
+	font-size:12px;
+	border-collapse: collapse;
+	border: 1px solid #999999;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* 部材調達
+---------------------------------------------------------------*/
+#part p.sub_midashi{
+	font-weight:bold;
+	color:#137733;
+}
+
+#part table.design_zaiko td {
+	padding:0px 0px 1px 0px;
+}
+
+/* 試作実装 and 量産実装
+---------------------------------------------------------------*/
+#jisso .boderBox{
+	width: 665px;
+	margin:0px 10px 20px 10px;
+	padding:10px 0px 10px 0px;
+	border-top: 1px solid #137733;
+	border-right: 1px solid #137733;
+	border-bottom: 1px solid #137733;
+	border-left: 1px solid #137733;
+	text-align: left;
+}
+
+#jisso .jisso_poin{
+	width:650px;
+	margin:0px 0px 0px 10px;
+	padding:5px 0px 10px 10px;
+	text-align: left;
+	float:left;
+	/*border: 1px solid #00aa55;*/
+	border-radius: 5px;
+}
+
+#jisso .jisso_poin dl{
+}
+
+#jisso .jisso_poin dt{
+	float:left;
+	clear:left;
+	margin:10px 0px 0px 0px;
+}
+
+#jisso .jisso_poin dd.line1{
+	float:left;
+	font-weight:bold;
+	font-size:16px;
+	margin:28px 0px 0px 10px;
+}
+
+#jisso .jisso_poin dd{
+	float:left;
+	font-weight:bold;
+	font-size:16px;
+	margin:20px 0px 0px 10px;
+}
+
+#jisso ul.plist {
+}
+
+#jisso ul.plist li {
+	background:transparent url("../business/img/plist.gif") no-repeat scroll left center;
+	margin-left:10px;
+	padding: 2px 0px 3px 13px;
+}
+
+#jisso p.boderBox_text{
+	margin-left:10px;
+	padding:10px 10px 2px 10px;
+	line-height:150%;
+}
+
+#jisso p.sub_midashi{
+	padding:5px 5px 5px 5px;
+	font-size:12px;
+}
+
+#jisso font.point{
+	color: #137733;
+	font-weight:bold;
+}
+
+#jisso table.point_area{
+	border-collapse: collapse;
+	border-style:none;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+
+#jisso table.point_area tr td{
+	text-align:left;
+	padding:0px 5px 10px 5px;
+}
+
+#jisso p.point_title{
+	font-weight:bold;
+	font-size:16px;
+	margin:5px 0px 5px 0px;
+	padding:9px 0px 5px 10px;
+	border-bottom: 1px solid #137733;
+	text-align:left;
+}
+
+#jisso p.point_subtitel{
+	padding:0px 0px 0px 30px;
+	line-height:150%;
+	font-size:16px;
+	text-align:left;
+	background:transparent url("../business/img/pointicon_sankaku.gif") no-repeat scroll left center;
+}
+
+#jisso p.point_honbun{
+	padding:5px 0px 5px 30px;
+	line-height:150%;
+	font-size:12px;
+	text-align:left;
+}
+
+#jisso .service{
+	width:650px;
+	margin:0px 0px 0px 10px;
+	padding:5px 0px 10px 10px;
+	text-align: left;
+	float:left;
+	border-radius: 5px;
+}
+
+#jisso .service dl{
+}
+
+#jisso .service dt{
+	float:left;
+	clear:left;
+	margin:10px 0px 0px 0px;
+}
+
+#jisso .service dd.line1{
+	float:left;
+	font-weight:bold;
+	font-size:16px;
+	margin:28px 0px 0px 10px;
+}
+
+#jisso .service dd{
+	float:left;
+	font-weight:bold;
+	font-size:16px;
+	margin:20px 0px 0px 10px;
+}
+
+#jisso p.setsubi_titel{
+	padding:0px 0px 10px 0px;
+	font-weight:bold;
+	font-size:18px;
+	color: #008000;
+}
+
+/* 機械加工
+---------------------------------------------------------------*/
+#kikaikako .jirei_img1{
+	width:219px;
+	height:200px;
+	margin:5px 10px 5px 0px;
+	padding:0px 0px 15px 0px;
+	float:left;
+	border: solid 1px #cccccc;
+	text-align:center;
+}
+
+#kikaikako .jirei_img2{
+	width:219px;
+	height:200px;
+	margin:5px 10px 5px 0px;
+	padding:0px 0px 15px 0px;
+	float:left;
+	border: solid 1px #cccccc;
+	text-align:center;
+}
+
+#kikaikako .jirei_img3{
+	width:219px;
+	height:200px;
+	margin:5px 0px 5px 0px;
+	padding:0px 0px 15px 0px;
+	float:left;
+	border: solid 1px #cccccc;
+	text-align:center;
+}
+
+#kikaikako p.jirei_title{
+	font-weight:bold;
+	font-size:12px;
+	margin:0px 0px 5px 0px;
+	padding:5px 0px 2px 10px;
+	border-bottom: 1px solid #cccccc;
+	background-color:#ECECEC;
+	text-align:left;
+	clear:both;
+}
+
+#kikaikako p.jirei_text{
+	padding:10px 5px 5px 10px;
+	text-align:left;
+	font-size:12px;
+	clear:both;
+}

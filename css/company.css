@@ -1,0 +1,196 @@
+@charset "shift_jis";
+/*================================================================================
+
+	company.css for www.pulax.co.jp
+	Last modified:  2012-08-15
+
+================================================================================*/
+
+@import url(../common/css/common.css);
+
+#contents{
+	clear:both;
+	margin:0 auto;
+}
+
+#contents_inner{
+	width:960px;
+	margin:0px auto;
+	padding:10px 0px 0px 0px;
+}
+
+#main{
+	width:685px;
+	float:left;
+	margin:0px 0px 20px 0px;
+	text-align:left;
+}
+
+#anniv_main{
+	width:683px;
+	float:left;
+	margin:0px 0px 40px 0px;
+	
+	border-top: 1px ridge #CCCCCC;
+	border-right: 1px ridge #CCCCCC;
+	border-bottom: 1px ridge #CCCCCC;
+	border-left: 1px ridge #CCCCCC;
+	
+}
+
+#anniv_pic{
+	width:683px;
+	float:left;
+	margin:0px 0px 10px 540px;
+	
+}
+
+
+/* 業務内容
+---------------------------------------------------------------*/
+#company p.gaiyou{
+	background-image:url(../company/img/company_02.gif);
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+	width:565px;
+	height:35px;
+	margin:10px 0 5px 0;
+}
+
+#company p.catch{
+	padding:15px 10px 10px 10px;
+	line-height:150%;
+	text-align:center;
+}
+
+#company p.honbun{
+	padding:5px 10px;
+	line-height:150%;
+	text-align:left;
+}
+
+#company p.sign{
+	padding:5px 10px;
+	font-size:large;
+	font-weight:bold;
+	text-align:right;
+}
+
+/* 会社沿革
+---------------------------------------------------------------*/
+#history td{
+	line-height:160%;
+}
+
+/* 50周年特設ページ
+---------------------------------------------------------------*/
+#50th_anniv p.midashi{
+	font-weight:bold;
+	font-size:large;
+	color:#137733;
+	padding:20px 5px 5px 5px;
+}
+
+#anniv p.sub_midashi{
+	color:#137733;
+	padding:5px;
+}
+
+#anniv p.honbun{
+	padding:10px 20px 10px 20px;
+	line-height:150%;
+}
+
+#anniv p.sign{
+	padding:20px;
+	text-align:right;
+}
+
+/* 拠点紹介
+---------------------------------------------------------------*/
+#base #tbl_area{
+	margin:15px 20px 0px 20px;
+}
+
+#base p.title{
+	font-size:14px;
+	font-weight:bold;
+	padding:5px 10px;
+	border-bottom: 1px solid #137733;
+	text-align:left;
+}
+
+
+/* Google MAP
+---------------------------------------------------------------*/
+#googlemap table{
+	border-collapse: collapse;
+	border: 1px solid #999999;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#googlemap th{
+	padding:3px 5px;
+	font-weight:normal;
+	border: 1px solid #999999;
+	text-align:center;
+	background-color:#CCCCCC;
+}
+
+#googlemap td{
+	padding:3px 5px;
+	border: 1px solid #999999;
+	text-align:center;
+	background-color:#ffffff;
+}
+
+#googlemap table.buttan{
+	border-collapse: collapse;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#googlemap table.buttan{
+	border: none;
+}
+
+#googlemap table.buttan td{
+	background-color: #ffffff;
+	border: none;
+	padding:3px 5px;
+	font-weight:normal;
+	text-align:center;
+}
+
+/* ISOの取り組みについて
+---------------------------------------------------------------*/
+#ISO p.midashi{
+	font-weight:bold;
+	font-size:large;
+	color:#137733;
+	padding:20px 5px 5px 5px;
+}
+
+#ISO p.sub_midashi{
+	color:#137733;
+	padding:5px;
+}
+
+#ISO p.honbun{
+	padding:5px 10px 5px 15px;
+	line-height:150%;
+}
+
+#ISO p.kyocho{
+	font-weight:bold;
+	font-size:large;
+	padding:20px 5px 5px 60px;
+}
+
+#ISO p.sign{
+	padding:5px;
+	text-align:right;
+}

@@ -1,0 +1,108 @@
+@charset "shift_jis";
+/*================================================================================
+
+	facilities.css for www.pulax.co.jp
+	Last modified:  2012-08-15
+
+================================================================================*/
+
+@import url(../common/css/common.css);
+
+#contents{
+	clear:both;
+	margin:0 auto;
+}
+
+#contents_inner{
+	width:960px;
+	margin:0px auto;
+	padding:10px 0px 0px 0px;
+}
+
+#main{
+	width:685px;
+	float:left;
+	margin:0px 0px 20px 0px;
+	text-align:left;
+}
+
+/* HÉ^ÉOêÈåæ
+---------------------------------------------------------------*/
+#h1_area{
+	padding:0px 0px 10px 0px;
+}
+
+.titel_area{
+	padding:10px 0px 10px 0px;
+}
+
+/* ê›îıè–âÓ 
+---------------------------------------------------------------*/
+#facilities p.honbun{
+	padding:5px 5px 5px 10px;
+	line-height:150%;
+}
+
+#facilities table.list_tbl{
+	width:685px;
+	margin:0px 0px 0px 0px;
+}
+
+#facilities table.list_tbl .td1_L {
+	vertical-align: top;
+	padding:5px 10px 5px 0px;
+}
+
+#facilities table.list_tbl .td1_R {
+	vertical-align: top;
+	padding:5px 0px 5px 10px;
+}
+
+#facilities table.list_tbl .td2_L {
+	vertical-align: top;
+	padding:2px 0px 5px 0px;
+}
+
+#facilities table.list_tbl .td2_R {
+	vertical-align: top;
+	padding:2px 0px 5px 15px;
+}
+
+/* ê›îıàÍóó
+---------------------------------------------------------------*/
+#setsubi p.sub_midashi{
+	font-weight:bold;
+	color:#137733;
+	padding:10px 5px 5px 0px;
+}
+
+#setsubi img.img{
+	padding:5px 5px 10px 0px;
+}
+
+#setsubi img.img_last{
+	padding:5px 0px 10px 0px;
+}
+
+#setsubi table{
+	border-collapse: collapse;
+	border: 1px solid #999999;
+	margin-bottom:10px;
+}
+
+#setsubi th{
+	padding:5px;
+	font-size:11px;
+	font-weight:normal;
+	border: 1px solid #999999;
+	text-align:center;
+	background-color:#CCCCCC;
+}
+
+#setsubi td{
+	padding:5px;
+	font-size:11px;
+	border: 1px solid #999999;
+	background-color:#ffffff;
+
+}

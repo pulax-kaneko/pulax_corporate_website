@@ -1,0 +1,10 @@
+@charset "shift_jis";
+/*================================================================================
+
+	common.css for www.pulax.co.jp
+	Last modified:  2009-10-25
+
+================================================================================*/
+
+@import url("reset-fonts.css"); /* From Yahoo UI to Universal reset */
+@import url("common.css"); /* temp layout of common view */

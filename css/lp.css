@@ -1,0 +1,227 @@
+@charset "shift_jis";
+/*================================================================================
+
+	common.css for www.pulax.co.jp
+	Last modified:  2009-01-10
+
+================================================================================*/
+
+/* LP‹¤’Ê
+---------------------------------------------------------------*/
+#contents {
+	clear: both;
+	width: 860px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#lp_head {
+	width: 860px;
+	border-bottom: 5px solid #137339;
+}
+
+#lp_logo {
+	float: left;
+	text-align: left;
+	padding-bottom: 5px;
+	width:550px;
+}
+
+#lp_telfax {
+	float: right;
+}
+
+#lp_img {
+	background-image: url(../lp/img/pulax_lp_telfax.jpg);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	width: 310px;
+	height: 40px;
+	margin-top: 10px;
+}
+
+#lp_form a {
+	display: block;
+	font-size: 0;
+	background-image: url(../lp/img/pulax_lp_contact.jpg);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+	width: 290px;
+	height: 15px;
+	margin: 0 auto;
+}
+
+#lp_form a:hover {
+	background-position: 0 -15px;
+}
+
+#lp_main {
+	margin-top: 15px;
+}
+
+#lp_footer {
+	width: 860px;
+	margin-top: 15px;
+	border-top: 2px solid #137339;
+	text-align: center;
+}
+
+#lp_footer ul {
+	margin:0;
+	padding:10px 10px 0px 10px;
+}
+
+#lp_footer li {
+	border-right:1px solid #999999;
+	padding: 0 5px;
+	display:inline;
+}
+
+#lp_footer li.ft_nav_right {
+	border: none;
+}
+
+#lp_footer p.copyright {
+	padding:10px 0px 5px 0px;
+}
+
+
+/* print
+---------------------------------------------------------------*/
+#lp_main h1 {
+	display: block;
+	font-size: 0;
+	background-image: url(../lp/img/shisakuj_03.jpg);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+	width: 840px;
+	height: 320px;
+	margin: 0 auto;
+}
+
+#print_service01 {
+	float: left;
+	padding-left: 10px;
+	margin-top: 0px;
+	position: relative;
+}
+
+.print_txt {
+	font-size: 16px;
+	line-height: 140%;
+}
+
+#print_service01 h2 {
+	display: block;
+	font-size: 0;
+	background-image: url(../lp/img/shisakuj_05.jpg);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+	width: 840px;
+	height: 220px;
+}
+
+#print_service02 {
+	float: left;
+	padding-left: 10px;
+	position: relative;
+}
+
+.print_txt {
+	font-size: 16px;
+	line-height: 140%;
+}
+
+#print_service02 h2 {
+	display: block;
+	font-size: 0;
+	background-image: url(../lp/img/shisakuj_06.jpg);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+	width: 840px;
+	height: 220px;
+}
+
+#print_service03 {
+	float: left;
+	padding-left: 10px;
+	position: relative;
+}
+
+.print_txt {
+	font-size: 16px;
+	line-height: 140%;
+}
+
+#print_service03 h2 {
+	display: block;
+	font-size: 0;
+	background-image: url(../lp/img/shisakuj_07.jpg);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+	width: 840px;
+	height: 195px;
+}
+
+#print_service04 {
+	float: left;
+	padding-left: 10px;
+	position: relative;
+}
+
+.print_txt {
+	font-size: 16px;
+	line-height: 140%;
+}
+
+#print_service04 h2 {
+	display: block;
+	font-size: 0;
+	background-image: url(../lp/img/shisakuj_08.jpg);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+	width: 840px;
+	height: 195px;
+}
+
+#lp_contact dl {
+	position: relative;
+}
+
+#lp_contact dt {
+	display: block;
+	font-size: 0;
+	background-image: url(../lp/img/shisakuj_13.jpg);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+	width: 860px;
+	height: 195px;
+}
+
+#lp_contact dd {
+	position: absolute;
+	left: 40px;
+	top: 25px;
+}
+
+#lp_contact dd a {
+	display: block;
+	font-size: 0;
+	background-image: url(../lp/img/shisakuj_bt.jpg);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+	width: 780px;
+	height: 70px;
+}
+
+#lp_contact dd a:hover {
+	background-position: 0 -70px;
+}

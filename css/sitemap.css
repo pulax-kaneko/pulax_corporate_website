@@ -1,0 +1,119 @@
+@charset "shift_jis";
+/*================================================================================
+
+	sitemap.css for www.pulax.co.jp
+	Last modified:  2012-08-15
+
+================================================================================*/
+
+@import url(../common/css/common.css);
+
+/* コンテンツエリア
+---------------------------------------------------------------*/
+#contents{
+	clear:both;
+	margin:0 auto;
+}
+
+#contents_inner{
+	width:960px;
+	margin:0px auto;
+	padding:10px 0px 0px 0px;
+}
+
+#main{
+	width:685px;
+	float:left;
+	margin:0px 0px 20px 0px;
+}
+
+#main p.title{
+	font-weight:bold;
+	font-size:14px;
+	padding:5px 10px;
+	border-left: 7px solid #137733;
+	border-bottom: 1px solid #137733;
+}
+
+/* コンテンツエリア 左 */
+#main #left{
+	float:left;
+	width:327px;
+	padding:10px 15px 0px 0px;
+}
+
+#main #left .line{
+	width:327px;
+	border-bottom:1px dotted #666666;
+	margin:0px 0px 10px 0px;
+}
+
+/* コンテンツエリア 右 */
+#main #right{
+	float:right;
+	width:328px;
+	padding:10px 0px 0px 15px;
+}
+
+#main #right .line{
+	width:328px;
+	border-bottom:1px dotted #666666;
+	margin:0px 0px 10px 0px;
+}
+
+.sitenav-inner {
+}
+
+.sitenav-inner .wrapper-sitenav {
+	padding:0px 0px 5px 0px;
+}
+
+.sitenav-inner .wrapper-sitenav-inner {
+	padding:0px 0px 0px 0px;
+}
+
+.sitenav-inner .wrapper-sitenav-inner p a {
+	background:transparent url(../common/img/point_bg.gif) no-repeat scroll left center;
+	display:block;
+	margin:0px 0px 0px 20px;
+	padding:5px 10px 5px 15px;
+	text-align: left;
+}
+
+.sitenav-inner .wrapper-sitenav-inner2 {
+	padding:0px 0px 0px 10px;
+}
+
+.sitenav-inner .wrapper-sitenav-inner2 p a {
+	display:block;
+	padding:5px 0px 5px 40px;
+	text-align: left;
+}
+
+.sitenav-inner ul {
+	margin:5px 0px 0px 40px;
+}
+
+.sitenav-inner ul li {
+	padding:0px 0px 5px 0px;
+	text-align: left;
+}
+
+.sitenav-inner ul li a {
+	background:transparent url(../home/img/sitemap_a_bg.gif) no-repeat scroll left center;
+	display:block;
+	padding:3px 0 3px 50px;
+}
+
+
+/* Hタグ宣言
+---------------------------------------------------------------*/
+h1{
+	font-size:x-small;
+	line-height:1.2;
+	font-weight:normal;
+	margin:0 0 0 10px;
+}
+
+
+

@@ -1,0 +1,165 @@
+@charset "shift_jis";
+/*================================================================================
+
+	recruit.css for www.pulax.co.jp
+	Last modified:  2012-08-15
+
+================================================================================*/
+
+@import url(../common/css/common.css);
+
+#contents{
+	clear:both;
+	margin:0 auto;
+}
+
+#contents_inner{
+	width:960px;
+	margin:0px auto;
+	padding:10px 0px 0px 0px;
+}
+
+#main{
+	width:685px;
+	float:left;
+	margin:0px 0px 20px 0px;
+}
+
+/* 共通タグ宣言
+---------------------------------------------------------------*/
+#h1_area{
+	padding:0px 0px 10px 0px;
+}
+
+.titel_area{
+	padding:10px 0px 10px 0px;
+}
+
+
+/* 採用情報
+---------------------------------------------------------------*/
+#recruit p.honbun{
+	padding:5px 5px 5px 10px;
+	line-height:150%;
+	text-align:left;
+}
+
+#recruit p.title{
+	font-weight:bold;
+	font-size:14px;
+	margin:0px 30px 0px 10px;
+	padding:5px 10px;
+	border-bottom: 1px solid #137733;
+	text-align:left;
+}
+
+#recruit p.titel_text{
+	padding:5px 5px 5px 20px;
+	line-height:150%;
+	text-align:left;
+}
+
+
+/* 経験者採用情報
+---------------------------------------------------------------*/
+#career p.honbun{
+	padding:5px 5px 5px 10px;
+	line-height:150%;
+	text-align:left;
+}
+
+#career p.table_text{
+	padding:0px 0px 20px 10px;
+}
+
+#career p.boshuyoko{
+	font-weight:bold;
+	font-size:14px;
+	padding:5px 5px 5px 10px;
+	margin:0px 0px 0px 0px;
+	line-height:150%;
+	text-align:left;
+	border-bottom: 2px solid #137733;
+}
+
+#career table{
+	border-collapse: collapse;
+	border: 1px solid #999999;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#career th{
+	text-align:center;
+	padding:0px 0px 0px 0px;
+	border: 1px solid #999999;
+	background-color:#DFDFDF;
+}
+
+#career td.subtitel{
+	text-align:left;
+	vertical-align:middle;
+	padding:0px 0px 0px 5px;
+	border: 1px solid #999999;
+	background-color:#DFDFDF;
+}
+
+#career td{
+	text-align:left;
+	vertical-align:middle;
+	padding:7px 5px 7px 5px;
+	border: 1px solid #999999;
+}
+
+/* 新卒採用情報
+---------------------------------------------------------------*/
+#shinsotsu p.honbun{
+	padding:5px 5px 5px 10px;
+	line-height:150%;
+	text-align:left;
+}
+
+#shinsotsu p.table_text{
+	padding:0px 0px 20px 10px;
+}
+
+#shinsotsu p.boshuyoko{
+	font-weight:bold;
+	font-size:14px;
+	padding:5px 5px 5px 10px;
+	margin:0px 0px 0px 0px;
+	line-height:150%;
+	text-align:left;
+	border-bottom: 2px solid #137733;
+}
+
+#shinsotsu table{
+	border-collapse: collapse;
+	border: 1px solid #999999;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#shinsotsu th{
+	text-align:center;
+	padding:0px 0px 0px 0px;
+	border: 1px solid #999999;
+	background-color:#DFDFDF;
+}
+
+#shinsotsu td.subtitel{
+	text-align:left;
+	vertical-align:middle;
+	padding:0px 0px 0px 5px;
+	border: 1px solid #999999;
+	background-color:#DFDFDF;
+}
+
+#shinsotsu td{
+	text-align:left;
+	vertical-align:middle;
+	padding:7px 5px 7px 5px;
+	border: 1px solid #999999;
+}

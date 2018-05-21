@@ -1,0 +1,238 @@
+@charset "shift_jis";
+/*================================================================================
+
+	campaign.css for www.pulax.co.jp
+	Last modified:  2014-03-19
+
+================================================================================*/
+
+@import url(../common/css/common.css);
+
+#contents{
+	clear:both;
+	margin:0 auto;
+}
+
+#contents_inner{
+	width:960px;
+	margin:0px auto;
+	padding:10px 0px 0px 0px;
+}
+
+#settowari_cp{
+	width:950px;
+	float:left;
+	margin:0px 0px 0px 0px;
+	
+	border-top: 0px ridge #CC0033;
+	border-right: 0px ridge #CC0033;
+	border-bottom: 0px ridge #CC0033;
+	border-left: 0px ridge #CC0033;
+	
+}
+
+#shokai_cp{
+	width:950px;
+	float:left;
+	margin:0px 0px 0px 0px;
+	
+	border-top: 5px ridge #CC0033;
+	border-right: 5px ridge #CC0033;
+	border-bottom: 5px ridge #CC0033;
+	border-left: 5px ridge #CC0033;
+	
+}
+
+#hayawari_cp{
+	width:950px;
+	float:left;
+	margin:0px 0px 20px 0px;
+	
+	border-top: 5px ridge #3366FF;
+	border-right: 5px ridge #3366FF;
+	border-bottom: 5px ridge #3366FF;
+	border-left: 5px ridge #3366FF;
+	
+}
+
+#simulation_cp{
+	width:950px;
+	float:left;
+	margin:0px 0px 20px 0px;
+	
+	border-top: 5px ridge #009933;
+	border-right: 5px ridge #009933;
+	border-bottom: 5px ridge #009933;
+	border-left: 5px ridge #009933;
+	
+}
+
+#botom_banner{
+	width:960px;
+	float:left;
+	margin:10px 0px 20px 0px;
+}
+
+/* ページトップロールオーバー */
+a.pagetop_cp{
+	display:block;
+	width:960px;
+	height:20px;
+	margin:20px 0px 10px 0px;
+}
+
+/* 共通タグ宣言
+---------------------------------------------------------------*/
+p.title{
+	font-weight:bold;
+	font-size:14px;
+	margin:5px 0px 5px 0px;
+	padding:0px 0px 5px 10px;
+	border-bottom: 1px solid #137733;
+	text-align:left;
+}
+
+p.honbun{
+	padding:5px 0px 5px 10px;
+	line-height:150%;
+	text-align:left;
+}
+
+p.td_text{
+	padding:0px 5px 0px 0px;
+	line-height:150%;
+}
+
+p.title_text{
+	padding:5px 5px 10px 0px;
+	line-height:150%;
+}
+
+th{
+	padding:10px;
+}
+
+td{
+	padding:10px;
+}
+
+/* お問合せのロールオーバー */
+p.contact_area{
+	width:960px;
+	padding:10px 0px 20px 0px;
+	text-align:left;
+}
+
+a.contact_img{
+	display:block;
+}
+
+#h1_area{
+	padding:0px 0px 10px 0px;
+}
+
+.titel_area{
+	padding:10px 0px 10px 0px;
+}
+
+/*  セット割
+---------------------------------------------------------------*/
+#settowari p.cp_text{
+	font-weight:bold;
+	font-size:24px;
+	padding:20px 10px 20px 10px;
+	line-height:150%;
+	text-align:left;
+}
+
+#settowari th.banner{
+	padding:0px;
+}
+
+#settowari td.banner{
+	padding:0px;
+}
+
+
+/*  紹介
+---------------------------------------------------------------*/
+#shokai p.cp_text{
+	font-weight:bold;
+	font-size:24px;
+	padding:20px 10px 20px 10px;
+	line-height:150%;
+	text-align:left;
+}
+
+#shokai th.banner{
+	padding:0px;
+}
+
+#shokai td.banner{
+	padding:0px;
+}
+
+/*  早割り
+---------------------------------------------------------------*/
+#hayawari p.cp_text{
+	font-weight:bold;
+	font-size:24px;
+	padding:20px 10px 20px 10px;
+	line-height:150%;
+	text-align:left;
+}
+
+#hayawari th.banner{
+	padding:0px;
+}
+
+#hayawari td.banner{
+	padding:0px;
+}
+
+/* EMIシミュレーション
+---------------------------------------------------------------*/
+#emisimulation p.cp_text{
+	font-weight:bold;
+	font-size:24px;
+	padding:20px 10px 20px 10px;
+	line-height:150%;
+	text-align:left;
+}
+
+#emisimulation th.banner{
+	padding:0px;
+}
+
+#emisimulation td.banner{
+	padding:0px;
+}
+
+#emisimulation .emimenu-area{
+	width:890px;
+	float:left;
+	background-color:#FFFF99;
+	margin:10px 10px 20px 10px;
+	padding:10px 20px 40px 20px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+#emisimulation .emimenu-area .area1{
+	float: left;
+	width:390px;
+	float:left;
+	background-color:#FFFF99;
+	margin:0px 10px 0px 10px;
+	padding:10px 10px 10px 10px;
+}
+
+#emisimulation p.emimenu-text{
+	padding:5px 5px 5px 5px;
+	font-size:18px;
+	line-height:150%;
+	text-align:left;
+}
+

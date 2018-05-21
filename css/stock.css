@@ -1,0 +1,163 @@
+@charset "shift_jis";
+/*================================================================================
+
+	stock.css for www.pulax.co.jp
+	Last modified:  2012-08-15
+
+================================================================================*/
+
+@import url(../common/css/common.css);
+
+##contents{
+	clear:both;
+	margin:0 auto;
+}
+
+#contents_inner{
+	width:960px;
+	margin:0px auto;
+	padding:10px 0px 0px 0px;
+}
+
+#main{
+	width:685px;
+	float:left;
+	margin:0px 0px 20px 0px;
+}
+
+/* 共通タグ宣言
+---------------------------------------------------------------*/
+#h1_area{
+	padding:0px 0px 10px 0px;
+}
+
+.titel_area{
+	padding:10px 0px 10px 0px;
+}
+
+p.honbun{
+	padding:5px 5px 5px 10px;
+	line-height:150%;
+	text-align:left;
+}
+
+p.sub_midashi{
+	font-weight:bold;
+	color:#137733;
+	padding:10px 10px;
+	width:660px;
+	text-align:left;
+}
+
+p.sub_midashi2{
+	font-size:18px;
+	font-weight:bold;
+	color:#137733;
+	padding:10px 10px;
+	width:660px;
+	text-align:center;
+}
+
+table{
+	border-collapse: collapse;
+	border: 1px solid #999999;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+th{
+	padding:3px 5px;
+	font-weight:normal;
+	border: 1px solid #999999;
+	text-align:center;
+	background-color:#DFDFDF;
+}
+
+td{
+	padding:3px 5px;
+	border: 1px solid #999999;
+	text-align:center;
+}
+
+td.design1{
+	text-align:left;
+}
+
+td.rohs{
+	background-color:#F0E68C;
+}
+
+table.design2{
+	border-collapse: collapse;
+	border-width:0px;
+	border-style:none;
+	margin-bottom:15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+table.design2 tr td{
+	border-collapse: collapse;
+	border-width:0px;
+	border-style:none;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	font-weight:bold;
+	color:#CC3333;
+}
+
+table.design2 th{
+	border-collapse: collapse;
+	border-width:0px;
+	border-style:none;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#ffffff;
+	text-align:right;
+	font-weight:bold;
+	color:#CC3333;
+}
+
+/* 在庫情報
+---------------------------------------------------------------*/
+#stock table.td_midashi td {
+	padding:0;
+	border: 0px solid #ffffff;
+	text-align:center;
+	background-color:#ffffff;
+}
+
+/* 抵抗
+---------------------------------------------------------------*/
+#resistor table.td_midashi td {
+	padding:3px 0;
+}
+
+#resistor table.td_honbun td {
+	padding:1px 1px;
+}
+
+.space_area{
+	width:660px;
+	height:550px;
+	padding:0px 0px 0px 0px;
+}
+
+/* コンデンサ
+---------------------------------------------------------------*/
+#condenser table.td_midashi td {
+	padding:3px 0;
+}
+
+/* チェック端子
+---------------------------------------------------------------*/
+#checkterminal p.rohs_text{
+	text-align: center;
+	padding:1px;
+	border: 1px solid #000000;
+	background-color:#F0E68C;
+}

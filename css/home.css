@@ -1,0 +1,225 @@
+@charset "shift_jis";
+/*================================================================================
+
+	common.css for www.pulax.co.jp
+	Last modified:  2012-08-08
+
+================================================================================*/
+
+@import url(../common/css/common.css);
+
+/* コンテンツスライダーエリア
+---------------------------------------------------------------*/
+#slider_main {
+	margin: 0 auto;
+	background-image:url(../home/img/slide_bg.gif);
+}
+
+#slider_main_inner {
+	width: 960px;
+	height: 240px;
+	margin: 0 auto;
+}
+
+#viewport, #box, .slide {
+	width: 960px;
+	height: 240px;
+}
+
+#viewport {
+	overflow: hidden;
+}
+
+footer {
+	margin: 0 0px;
+}
+
+#controls {
+	position: relative;
+	top: -20px;
+	left: -10px;
+	float: right;
+	overflow: hidden;
+}
+
+#controls li {
+	display: inline;
+}
+
+.goto-slide {
+	margin-left: 10px;
+	width: 14px;
+	height: 14px;
+	display: block;
+	float: left;
+	border: solid 1px #000;
+	background-color: #555;
+	border-radius: 8px;
+	-webkit-box-shadow: inset 0px 0px 8px #333;
+	-moz-box-shadow: inset 0px 0px 8px #333;
+	box-shadow: inset 0px 0px 8px #333;
+}
+
+.goto-slide.current {
+	background-color: #2a982d;
+}
+
+.effect, .effect:hover {
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+  border: solid 1px black;
+  border-radius: 7px;
+  padding: 10px 12px 6px;
+  color: #ccc;
+  text-decoration: none;
+  background-color: #555;
+  -webkit-box-shadow: inset 0px 0px 8px #000;
+  -moz-box-shadow: inset 0px 0px 8px #333;
+  box-shadow: inset 0px 0px 8px #333;
+}
+
+.effect.current, .effect:hover.current {
+  color: #2edbac;
+}
+
+#time_indicator_main {
+	margin: 0 auto;
+}
+
+#time_indicator_main_inner {
+	width: 960px;
+	height: 3px;
+	margin: 0 auto;
+}
+
+#time-indicator {
+  width: 0px;
+  height: 3px;
+  background-color: #137733;
+  float:left;
+}
+
+/* コンテンツエリア
+---------------------------------------------------------------*/
+#contents{
+}
+
+#contents_inner{
+	width:960px;
+	margin:0px auto;
+	padding:10px 0px 0px 0px;
+}
+
+#main{
+	width:685px;
+	float:left;
+	margin:0px 0px 20px 0px;
+}
+
+/* ソリューションエリア
+---------------------------------------------------------------*/
+#solution{
+	width: 685px;
+	margin:0px 0px 15px 0px;
+	padding:0px 0px 10px 0px;
+	text-align: left;
+}
+
+#solution p.solution_text{
+	padding:10px 0px 0px 5px;
+}
+
+#solution .sol_titel_chotatsu{
+	width:452px;
+	height:30px;
+	margin:0px 10px 0px 0px;
+	float:left;
+	text-align:center;
+}
+
+#solution .sol_titel_ecsite{
+	width:222px;
+	height:30px;
+	margin:0px 0px 0px 0px;
+	float:left;
+	text-align:center;
+}
+
+#solution .sol_img1{
+	width:219px;
+	height:100px;
+	margin:5px 10px 10px 0px;
+	padding:5px 0px 15px 0px;
+	float:left;
+	border: solid 1px #cccccc;
+	text-align:center;
+}
+
+#solution .sol_img2{
+	width:219px;
+	height:100px;
+	margin:5px 10px 10px 0px;
+	padding:5px 0px 15px 0px;
+	float:left;
+	border: solid 1px #cccccc;
+	text-align:center;
+}
+
+#solution .sol_img3{
+	width:219px;
+	height:100px;
+	margin:5px 0px 10px 0px;
+	padding:5px 0px 15px 0px;
+	float:left;
+	border: solid 1px #cccccc;
+	text-align:center;
+}
+
+#solution p.sol_text{
+	padding:10px 5px 5px 10px;
+	text-align:left;
+	font-size:12px;
+}
+
+
+/* ニュース・トピックス
+---------------------------------------------------------------*/
+#news{
+	width: 685px;
+}
+
+#news ul li {
+	clear:both;
+	list-style-type:none;
+	vertical-align: bottom;
+	background-image: url(../home/img/dot.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	padding:10px 0;
+}
+
+#news ul li p.news_date {
+	padding-left: 5px;
+	color: #666666;
+	_height: 4px;
+	float:left;
+	width:70px;
+}
+
+#news ul li p.news_topics {
+	padding-left: 15px;
+	color: #666666;
+	_height: 4px;
+	float:left;
+}
+
+/* Hタグ宣言
+---------------------------------------------------------------*/
+h1{
+	font-size:x-small;
+	line-height:1.2;
+	font-weight:normal;
+	margin:0 0 0 10px;
+}
+

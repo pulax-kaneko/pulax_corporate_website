@@ -1,0 +1,231 @@
+@charset "shift_jis";
+/*================================================================================
+
+	common.css for www.pulax.co.jp
+	Last modified:  2009-10-25
+
+================================================================================*/
+
+@charset "utf-8";
+/*
+Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.7.0
+
+*/
+/**
+ * YUI Reset
+ * @module reset
+ * @namespace
+ * @requires 
+*/
+
+html {
+	color: #000;
+	background: #FFF;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset,
+img {
+	border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var,
+optgroup {
+	font-style: inherit;
+	font-weight: inherit;
+}
+
+del,
+ins {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+caption,
+th {
+	text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+q:before,
+q:after {
+	content: '';
+}
+
+abbr,
+acronym {
+	border: 0;
+	font-variant: normal;
+}
+
+sup {
+	vertical-align: baseline;
+}
+
+sub {
+	vertical-align: baseline;
+}
+
+/*because legend doesn't inherit in IE */
+legend {
+	color: #000;
+}
+
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+}
+
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+
+/* Hides from IE-mac \*/
+* html input,
+* html button,
+* html textarea,
+* html select {
+	font-size: 100%;
+}
+/* End hides from IE-mac */
+
+*:first-child+html input,
+*:first-child+html button,
+*:first-child+html textarea,
+*:first-child+html select {
+	font-size: 100%;
+}
+
+/**
+ * Percents could work for IE, but for backCompat purposes, we are using keywords.
+ * x-small is for IE6/7.
+ * quirks mode. >> to fontsto-iequirks.css [if import]
+ */
+body {
+	font: 13px/1.231 arial,helvetica,clean,sans-serif;
+}
+
+/* for IE6/7 Delete for IE6quirk */ 
+/* Hides from IE-mac \*/
+/** html body {
+	font-size: small;
+}*/
+/* End hides from IE-mac */
+
+*:first-child+html body {
+	font-size: small;
+}
+
+/**
+ * Nudge down to get to 13px equivalent for these form elements
+ */ 
+select,
+input,
+button,
+textarea,
+button {
+	font: 99% arial,helvetica,clean,sans-serif;
+}
+
+/**
+ * To help tables remember to inherit
+ * quirks mode. >> to fontsto-iequirks.css [if import]
+ */
+table {
+	font-size: inherit;
+}
+
+/**
+ * Bump up IE to get to 13px equivalent for these fixed-width elements
+ */
+pre,
+code,
+kbd,
+samp,
+tt {
+	font-family: monospace;
+	line-height: 100%;
+}
+
+/* for IE6/7 */
+/* Hides from IE-mac \*/
+* html pre,
+* html code,
+* html kbd,
+* html samp,
+* html tt {
+	font-size: 108%;
+}
+/* End hides from IE-mac */
+
+*:first-child+html pre,
+*:first-child+html code,
+*:first-child+html kbd,
+*:first-child+html samp,
+*:first-child+html tt {
+	font-size: 108%;
+}
+
